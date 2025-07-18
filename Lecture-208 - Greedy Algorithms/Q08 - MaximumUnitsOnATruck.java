@@ -1,3 +1,13 @@
+
+✅ Problem Statement:
+You're given:
+
+A 2D list boxTypes, where each element is [number_of_boxes, units_per_box].
+
+An integer truckSize, which is the max number of boxes the truck can carry.
+
+Goal:
+Pick boxes such that total units on the truck are maximized.
 def maximum_units(boxTypes, truckSize):
     # Step 1: Sort boxTypes by units per box in decreasing order
     boxTypes.sort(key=lambda x: x[1], reverse=True)
