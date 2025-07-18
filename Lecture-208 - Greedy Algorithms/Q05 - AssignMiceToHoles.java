@@ -1,4 +1,12 @@
+All mice start running at the same time.
 
+Each hole can accommodate only one mouse.
+
+You are free to assign any mouse to any hole — but you must assign them in a way that minimizes the time it takes for the last mouse to enter a hole.
+
+Time for a mouse = abs(mouse_position - hole_position)
+
+So the total time to finish the process = maximum time among all mouse–hole assignments.
 class Solution:
     def assignMiceHoles(self, N: int, M: list[int], H: list[int]) -> int:
         # Step 1: Sort mice and holes
