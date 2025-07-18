@@ -1,5 +1,6 @@
 
 //------------ perfect sum------------
+# here we are searching how many sums of subset equal to target ..
 // recursive
 class Solution23 {
     // Function to calculate the number of subsets with a given sum
