@@ -2,8 +2,8 @@
 class Solution:
     def assignMiceHoles(self, N: int, M: list[int], H: list[int]) -> int:
         # Step 1: Sort mice and holes
-        M.sort()
-        H.sort()
+        M.sort()[-4,2,4]
+        H.sort()[0,4,5]
         
         # Step 2: Find max distance for corresponding pairs
         maxTime = 0
